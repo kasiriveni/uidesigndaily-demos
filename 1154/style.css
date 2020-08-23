@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+ body{
+  font-family: 'Mulish', sans-serif;
+  font-size: 14px;
+  background: #F2F2F2;
+
+}
+
+.conatiner {
+  background: #2F59DC;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin: auto;
+}
+.dailText,.number {
+
+  color:#FFFFFF;
+}
+h1,p{
+  font-family: 'Mulish', sans-serif;
+}
+
+.dail {
+  background-color: #4D74EE;
+  width: 400px;
+  display: flex;
+  border-radius: 10px;
+  height: 100px;
+  margin: 0px 65px;
+}
+.vertical {
+  height: 50px;
+    position: relative;
+    bottom: 0px;
+    top: 25px;
+}
+
+.dailNote {
+  padding:12px;
+}
+.more {
+  text-decoration: underline;
+  font-family: 'Mulish', sans-serif;
+  line-height: 20px;
+  margin: 20px 0px 60px 0px;
+  font-size: 16px;
+  color:#FFFFFF;
+}
+
+.btncontainer {
+  margin-bottom: 40px;
+}
+
+.btn {
+  /* height: 50px; */
+  min-height: 50px;
+  border-radius: 10px;
+  width: 220px;
+  font-family: 'Mulish', sans-serif;
+}
+.active {
+  background-color: white;
+  border: 1px solid white;
+  color:#394158
+}
+.cancle {
+  background-color: #2F59DC;
+  border: 1px solid #b8abab9e;
+  color:#FFFFFF;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #F89900;
+}
+footer {
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+}

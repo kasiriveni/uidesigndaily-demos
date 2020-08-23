@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+ body{
+  font-family: 'Mulish', sans-serif;
+  font-size:  0.9rem;
+  background: #F2F2F2;
+
+}
+
+.conatiner {
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin: auto;
+  height: 80vh;
+}
+
+.menu-start {
+  background: #3961DD;
+  border-radius: 10px;
+  width:300px;
+  display: flex;
+  color: white;
+  margin: 0px 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.custom-addd {
+  font-size: 2rem !important;
+}
+.text {
+  padding-top:10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  margin: 0px !important;
+  padding-left: 20px;
+}
+
+.item {
+  margin-bottom:5px;
+  display: flex;
+}
+footer {
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+}

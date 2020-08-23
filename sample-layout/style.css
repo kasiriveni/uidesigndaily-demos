@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+ body{
+  
+  background: #ffffff;
+
+}
+
+footer {
+  text-align: center;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin: auto;
+}
